@@ -1,15 +1,10 @@
-namespace BaekJoonProject
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            string[] sa = Console.ReadLine().Split();
+        string[] sa = Console.ReadLine().Split();
 
-            int a = int.Parse(sa[0]);
-            int b = int.Parse(sa[1]);
-            int c = a - b;
-            Console.WriteLine(c);
-        }
+        int a = int.Parse(sa[0]) - int.Parse(sa[1]);
+        Console.WriteLine(a);
     }
 }
