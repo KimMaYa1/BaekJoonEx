@@ -1,8 +1,7 @@
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
-for (int i = 0; i < num; i++)
+for (int i = 1; i <= num; i++)
 {
-    Console.Write("*");
     for(int j = 0; j < i; j++){
         Console.Write("*");
     }
